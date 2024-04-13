@@ -1,208 +1,657 @@
-﻿"Cube Title","Product Id","CANSIM Id",URL,"Cube Notes","Archive Status",Frequency,"Start Reference Period","End Reference Period","Total number of dimensions"
-"Estimates of the components of interprovincial migration, by age and gender, annual","17100015","051-0012","https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710001501",1;2;3;8;9;10;11,"CURRENT - a cube available to the public and that is current","Annual","1971-01-01","2022-01-01","4",
-
-"Dimension ID","Dimension name","Dimension Notes","Dimension Definitions"
-"1","Geography",,""
-"2","Gender",,""
-"3","Migrants",,""
-"4","Age group",6;8;12,""
-
-"Dimension ID","Member Name","Classification Code","Member ID","Parent Member ID",Terminated,"Member Notes","Member Definitions"
-"1","Newfoundland and Labrador","[10]","2","1","",,
-"1","Prince Edward Island","[11]","3","1","",,
-"1","Nova Scotia","[12]","4","1","",,
-"1","New Brunswick","[13]","5","1","",,
-"1","Quebec","[24]","6","1","",,
-"1","Ontario","[35]","7","1","",,
-"1","Manitoba","[46]","8","1","",,
-"1","Saskatchewan","[47]","9","1","",,
-"1","Alberta","[48]","10","1","",,
-"1","British Columbia","[59]","11","1","",,
-"1","Yukon","[60]","12","1","",,
-"1","Northwest Territories including Nunavut","","13","1","t",4,
-"1","Northwest Territories","[61]","14","1","",5,
-"1","Nunavut","[62]","15","1","",5,
-"1","Canada","[11124]","1","","",,
-"2","Men+","","2","1","",,
-"2","Women+","","3","1","",,
-"2","Total - gender","","1","","",,
-"3","In-migrants","","1","","",,
-"3","Out-migrants","","2","","",,
-"3","Net-migration","","3","","",,
-"4","-1 year","","2","1","",7,
-"4","0 to 4 years","","8","1","",,
-"4","5 to 9 years","","14","1","",,
-"4","10 to 14 years","","20","1","",,
-"4","15 to 19 years","","26","1","",,
-"4","20 to 24 years","","32","1","",,
-"4","25 to 29 years","","38","1","",,
-"4","30 to 34 years","","44","1","",,
-"4","35 to 39 years","","50","1","",,
-"4","40 to 44 years","","56","1","",,
-"4","45 to 49 years","","62","1","",,
-"4","50 to 54 years","","68","1","",,
-"4","55 to 59 years","","74","1","",,
-"4","60 to 64 years","","80","1","",,
-"4","65 to 69 years","","86","1","",,
-"4","70 to 74 years","","87","1","",,
-"4","75 to 79 years","","88","1","",,
-"4","80 to 84 years","","89","1","",,
-"4","85 to 89 years","","90","1","",,
-"4","90 to 94 years","","126","1","",,
-"4","95 to 99 years","","132","1","",,
-"4","100 years and older","","138","1","",,
-"4","0 years","","3","8","",,
-"4","1 year","","4","8","",,
-"4","2 years","","5","8","",,
-"4","3 years","","6","8","",,
-"4","4 years","","7","8","",,
-"4","5 years","","9","14","",,
-"4","6 years","","10","14","",,
-"4","7 years","","11","14","",,
-"4","8 years","","12","14","",,
-"4","9 years","","13","14","",,
-"4","10 years","","15","20","",,
-"4","11 years","","16","20","",,
-"4","12 years","","17","20","",,
-"4","13 years","","18","20","",,
-"4","14 years","","19","20","",,
-"4","15 years","","21","26","",,
-"4","16 years","","22","26","",,
-"4","17 years","","23","26","",,
-"4","18 years","","24","26","",,
-"4","19 years","","25","26","",,
-"4","20 years","","27","32","",,
-"4","21 years","","28","32","",,
-"4","22 years","","29","32","",,
-"4","23 years","","30","32","",,
-"4","24 years","","31","32","",,
-"4","25 years","","33","38","",,
-"4","26 years","","34","38","",,
-"4","27 years","","35","38","",,
-"4","28 years","","36","38","",,
-"4","29 years","","37","38","",,
-"4","30 years","","39","44","",,
-"4","31 years","","40","44","",,
-"4","32 years","","41","44","",,
-"4","33 years","","42","44","",,
-"4","34 years","","43","44","",,
-"4","35 years","","45","50","",,
-"4","36 years","","46","50","",,
-"4","37 years","","47","50","",,
-"4","38 years","","48","50","",,
-"4","39 years","","49","50","",,
-"4","40 years","","51","56","",,
-"4","41 years","","52","56","",,
-"4","42 years","","53","56","",,
-"4","43 years","","54","56","",,
-"4","44 years","","55","56","",,
-"4","45 years","","57","62","",,
-"4","46 years","","58","62","",,
-"4","47 years","","59","62","",,
-"4","48 years","","60","62","",,
-"4","49 years","","61","62","",,
-"4","50 years","","63","68","",,
-"4","51 years","","64","68","",,
-"4","52 years","","65","68","",,
-"4","53 years","","66","68","",,
-"4","54 years","","67","68","",,
-"4","55 years","","69","74","",,
-"4","56 years","","70","74","",,
-"4","57 years","","71","74","",,
-"4","58 years","","72","74","",,
-"4","59 years","","73","74","",,
-"4","60 years","","75","80","",,
-"4","61 years","","76","80","",,
-"4","62 years","","77","80","",,
-"4","63 years","","78","80","",,
-"4","64 years","","79","80","",,
-"4","65 years","","81","86","",,
-"4","66 years","","82","86","",,
-"4","67 years","","83","86","",,
-"4","68 years","","84","86","",,
-"4","69 years","","85","86","",,
-"4","70 years","","106","87","",,
-"4","71 years","","107","87","",,
-"4","72 years","","108","87","",,
-"4","73 years","","109","87","",,
-"4","74 years","","110","87","",,
-"4","75 years","","111","88","",,
-"4","76 years","","112","88","",,
-"4","77 years","","113","88","",,
-"4","78 years","","114","88","",,
-"4","79 years","","115","88","",,
-"4","80 years","","116","89","",,
-"4","81 years","","117","89","",,
-"4","82 years","","118","89","",,
-"4","83 years","","119","89","",,
-"4","84 years","","120","89","",,
-"4","85 years","","121","90","",,
-"4","86 years","","122","90","",,
-"4","87 years","","123","90","",,
-"4","88 years","","124","90","",,
-"4","89 years","","125","90","",,
-"4","18 to 24 years","","100","101","",,
-"4","25 to 44 years","","103","101","",,
-"4","45 to 64 years","","104","101","",,
-"4","18 to 64 years","","101","102","",,
-"4","65 years and older","","105","102","",,
-"4","90 years","","127","126","",,
-"4","91 years","","128","126","",,
-"4","92 years","","129","126","",,
-"4","93 years","","130","126","",,
-"4","94 years","","131","126","",,
-"4","95 years","","133","132","",,
-"4","96 years","","134","132","",,
-"4","97 years","","135","132","",,
-"4","98 years","","136","132","",,
-"4","99 years","","137","132","",,
-"4","All ages","","1","","",,
-"4","90 years and older","","91","","",,
-"4","-1 to 14 years","","92","","",,
-"4","-1 to 15 years","","93","","",,
-"4","-1 to 16 years","","94","","",,
-"4","-1 to 17 years","","95","","",,
-"4","15 to 49 years","","96","","",,
-"4","15 to 64 years","","97","","",,
-"4","16 to 64 years","","98","","",,
-"4","18 years and older","","102","","",,
-"4","17 to 64 years","","99","","",,
-
-Symbol Legend
-Description,Symbol
-"not available for a specific reference period","..",
-"less than the limit of detection","<LOD",
-"value rounded to 0 (zero) where there is a meaningful distinction between true zero and the value that was rounded","0s",
-"data quality: excellent","A",
-"data quality: very good","B",
-"data quality: good","C",
-"data quality: acceptable","D",
-"use with caution","E",
-"too unreliable to be published","F",
-"not applicable","...",
-"preliminary","p",
-"revised","r",
-"suppressed to meet the confidentiality requirements of the Statistics Act","x",
-"terminated","t",
-
-"Survey Code","Survey Name"
-"3604","Annual Demographic Estimates: Canada, Provinces and Territories"
-
-"Subject Code","Subject Name"
-"17","Population and demography"
-
-"Note ID",Note
-1,"Interprovincial migration represents movements from one province or territory to another, involving a change in usual place of residence. A person who takes up residence in another province or territory is an out-migrant with reference to the province or territory of origin, and an in-migrant with reference to the province or territory of destination. Net interprovincial migration is the difference between the number of in-migrants and the number of out-migrants."
-2,"Period from July 1 to June 30."
-3,"The number of interprovincial migrants is final up to 2021/2022 and preliminary for 2022/2023."
-4,"Data for Northwest Territories and Nunavut are presented separately from 1991/1992."
-5,"Prior to 1991/1992, only data for Northwest Territories and Nunavut combined are available."
-6,"Age at July 1."
-7,"Age -1 represents persons born after July 1 and not included in age group 0 to 4 years."
-8,"Data for persons aged 90 to 100 years and older will be available from 2001/2002."
-9,"From 1971/1972 to 1975/1976, estimates are based on Family Allowance data. From 1976/1977 to 2021/2022, estimates are based on Canada Revenue Agency (CRA) tax data. For 2022/2023, estimates are based on Canada child benefit data from CRA."
-10,"The population growth, which is used to calculate population estimates, is comprised of the natural growth (Tables 17100006 and 17100016), international migration (Table 17100014) and interprovincial migration (Table 17100015)."
-11,"The demographic estimates now incorporate the concept of gender, which was first introduced in the 2021 Census of Population. Gender refers to an individual's personal and social identity as a man, woman or non-binary person (a person who is not exclusively a man or a woman). Demographic estimates are available for the gender category "Men+", which includes men (and/or boys), as well as some non-binary persons, and for the gender category “Women+" category, which includes women (and/or girls), as well as some non-binary persons. For the sake of uniformity, all data products from the Demographic Estimates Program now adopt the term ‘gender’ for all years and periods. Prior to 2021, the demographic estimates are based on the concept of sex at birth. Although gender and sex at birth are two different concepts, this change does not cause a significant break in the trend because the two concepts produce very similar distributions. Population estimates by age and sex at birth are available upon request (please contact statcan.demography-demographie.statcan@statcan.gc.ca)."
-12,"Prior to 2021/2022, the distribution by age and gender is based partly on the mobility question from the most recent census that was available during the production of estimates. From 2021/2022, the distribution by age and gender is based solely on the T1 Family File (T1FF). For preliminary data, the distribution by age and gender is based on 3 years of the most recent T1 Family File data available."
-
-"Correction ID","Correction Date","Correction Note"
+﻿REF_DATE,GEO,DGUID,Gender,Type of migrant,Age group,UOM,UOM_ID,SCALAR_FACTOR,SCALAR_ID,VECTOR,COORDINATE,VALUE,STATUS,SYMBOL,TERMINATED,DECIMALS
+1971/1972,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,729,,,,0
+1972/1973,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,751,,,,0
+1973/1974,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1128,,,,0
+1974/1975,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,995,,,,0
+1975/1976,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1013,,,,0
+1976/1977,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,648,,,,0
+1977/1978,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,466,,,,0
+1978/1979,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,377,,,,0
+1979/1980,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,681,,,,0
+1980/1981,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,483,,,,0
+1981/1982,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,424,,,,0
+1982/1983,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,356,,,,0
+1983/1984,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,311,,,,0
+1984/1985,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,300,,,,0
+1985/1986,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,298,,,,0
+1986/1987,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,355,,,,0
+1987/1988,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,434,,,,0
+1988/1989,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,431,,,,0
+1989/1990,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,483,,,,0
+1990/1991,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,614,,,,0
+1991/1992,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,704,,,,0
+1992/1993,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,806,,,,0
+1993/1994,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,704,,,,0
+1994/1995,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,615,,,,0
+1995/1996,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,557,,,,0
+1996/1997,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,479,,,,0
+1997/1998,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,411,,,,0
+1998/1999,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,368,,,,0
+1999/2000,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,425,,,,0
+2000/2001,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,445,,,,0
+2001/2002,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,414,,,,0
+2002/2003,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,316,,,,0
+2003/2004,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,536,,,,0
+2004/2005,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,541,,,,0
+2005/2006,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,453,,,,0
+2006/2007,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,515,,,,0
+2007/2008,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,635,,,,0
+2008/2009,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,571,,,,0
+2009/2010,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,680,,,,0
+2010/2011,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,700,,,,0
+2011/2012,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,742,,,,0
+2012/2013,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,678,,,,0
+2013/2014,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1025,,,,0
+2014/2015,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,847,,,,0
+2015/2016,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1427,,,,0
+2016/2017,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1027,,,,0
+2017/2018,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1281,,,,0
+2018/2019,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1649,,,,0
+2019/2020,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,1565,,,,0
+2020/2021,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,884,,,,0
+2021/2022,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,2841,,,,0
+2022/2023,Newfoundland and Labrador,2016A000210,Total - gender,Immigrants,All ages,Persons,249,units,0,v437654,2.1.1.1,5337,,,,0
+1971/1972,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,174,,,,0
+1972/1973,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,171,,,,0
+1973/1974,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,377,,,,0
+1974/1975,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,284,,,,0
+1975/1976,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,222,,,,0
+1976/1977,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,200,,,,0
+1977/1978,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,174,,,,0
+1978/1979,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,168,,,,0
+1979/1980,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,300,,,,0
+1980/1981,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,146,,,,0
+1981/1982,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,148,,,,0
+1982/1983,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,139,,,,0
+1983/1984,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,103,,,,0
+1984/1985,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,116,,,,0
+1985/1986,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,129,,,,0
+1986/1987,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,165,,,,0
+1987/1988,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,165,,,,0
+1988/1989,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,139,,,,0
+1989/1990,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,181,,,,0
+1990/1991,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,149,,,,0
+1991/1992,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,165,,,,0
+1992/1993,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,161,,,,0
+1993/1994,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,139,,,,0
+1994/1995,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,200,,,,0
+1995/1996,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,127,,,,0
+1996/1997,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,185,,,,0
+1997/1998,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,123,,,,0
+1998/1999,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,125,,,,0
+1999/2000,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,142,,,,0
+2000/2001,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,189,,,,0
+2001/2002,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,145,,,,0
+2002/2003,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,89,,,,0
+2003/2004,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,268,,,,0
+2004/2005,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,312,,,,0
+2005/2006,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,352,,,,0
+2006/2007,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,738,,,,0
+2007/2008,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1282,,,,0
+2008/2009,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1723,,,,0
+2009/2010,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1792,,,,0
+2010/2011,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,2610,,,,0
+2011/2012,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1376,,,,0
+2012/2013,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,863,,,,0
+2013/2014,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1400,,,,0
+2014/2015,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1341,,,,0
+2015/2016,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,2015,,,,0
+2016/2017,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,2261,,,,0
+2017/2018,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,2089,,,,0
+2018/2019,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,2267,,,,0
+2019/2020,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,2079,,,,0
+2020/2021,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,1209,,,,0
+2021/2022,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,3439,,,,0
+2022/2023,Prince Edward Island,2016A000211,Total - gender,Immigrants,All ages,Persons,249,units,0,v437969,3.1.1.1,3116,,,,0
+1971/1972,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1709,,,,0
+1972/1973,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1923,,,,0
+1973/1974,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,3064,,,,0
+1974/1975,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2342,,,,0
+1975/1976,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2004,,,,0
+1976/1977,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1854,,,,0
+1977/1978,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1219,,,,0
+1978/1979,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,967,,,,0
+1979/1980,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1885,,,,0
+1980/1981,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1271,,,,0
+1981/1982,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1470,,,,0
+1982/1983,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,937,,,,0
+1983/1984,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,939,,,,0
+1984/1985,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1049,,,,0
+1985/1986,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,974,,,,0
+1986/1987,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1170,,,,0
+1987/1988,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1212,,,,0
+1988/1989,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1452,,,,0
+1989/1990,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1454,,,,0
+1990/1991,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1542,,,,0
+1991/1992,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1927,,,,0
+1992/1993,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2599,,,,0
+1993/1994,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,3084,,,,0
+1994/1995,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,3726,,,,0
+1995/1996,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,3397,,,,0
+1996/1997,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,3111,,,,0
+1997/1998,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2590,,,,0
+1998/1999,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1624,,,,0
+1999/2000,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1674,,,,0
+2000/2001,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1747,,,,0
+2001/2002,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1609,,,,0
+2002/2003,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1257,,,,0
+2003/2004,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1707,,,,0
+2004/2005,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,1711,,,,0
+2005/2006,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2197,,,,0
+2006/2007,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2722,,,,0
+2007/2008,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2668,,,,0
+2008/2009,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2446,,,,0
+2009/2010,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2414,,,,0
+2010/2011,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2286,,,,0
+2011/2012,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2352,,,,0
+2012/2013,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2241,,,,0
+2013/2014,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2779,,,,0
+2014/2015,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,2687,,,,0
+2015/2016,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,5482,,,,0
+2016/2017,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,4366,,,,0
+2017/2018,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,5147,,,,0
+2018/2019,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,6398,,,,0
+2019/2020,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,6249,,,,0
+2020/2021,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,3552,,,,0
+2021/2022,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,13838,,,,0
+2022/2023,Nova Scotia,2016A000212,Total - gender,Immigrants,All ages,Persons,249,units,0,v438284,4.1.1.1,12303,,,,0
+1971/1972,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1081,,,,0
+1972/1973,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1428,,,,0
+1973/1974,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2279,,,,0
+1974/1975,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1998,,,,0
+1975/1976,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2241,,,,0
+1976/1977,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1425,,,,0
+1977/1978,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,751,,,,0
+1978/1979,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,689,,,,0
+1979/1980,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1530,,,,0
+1980/1981,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,963,,,,0
+1981/1982,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,883,,,,0
+1982/1983,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,662,,,,0
+1983/1984,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,558,,,,0
+1984/1985,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,596,,,,0
+1985/1986,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,625,,,,0
+1986/1987,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,678,,,,0
+1987/1988,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,580,,,,0
+1988/1989,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,732,,,,0
+1989/1990,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,954,,,,0
+1990/1991,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,738,,,,0
+1991/1992,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,804,,,,0
+1992/1993,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,748,,,,0
+1993/1994,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,589,,,,0
+1994/1995,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,676,,,,0
+1995/1996,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,646,,,,0
+1996/1997,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,673,,,,0
+1997/1998,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,717,,,,0
+1998/1999,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,752,,,,0
+1999/2000,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,609,,,,0
+2000/2001,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,874,,,,0
+2001/2002,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,765,,,,0
+2002/2003,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,645,,,,0
+2003/2004,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,761,,,,0
+2004/2005,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,865,,,,0
+2005/2006,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1386,,,,0
+2006/2007,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1616,,,,0
+2007/2008,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1797,,,,0
+2008/2009,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1919,,,,0
+2009/2010,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1928,,,,0
+2010/2011,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,1986,,,,0
+2011/2012,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2254,,,,0
+2012/2013,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2019,,,,0
+2013/2014,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2300,,,,0
+2014/2015,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2797,,,,0
+2015/2016,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,4500,,,,0
+2016/2017,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,3459,,,,0
+2017/2018,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,4116,,,,0
+2018/2019,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,5076,,,,0
+2019/2020,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,4910,,,,0
+2020/2021,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,2688,,,,0
+2021/2022,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,8410,,,,0
+2022/2023,New Brunswick,2016A000213,Total - gender,Immigrants,All ages,Persons,249,units,0,v438599,5.1.1.1,11020,,,,0
+1971/1972,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,17690,,,,0
+1972/1973,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,19861,,,,0
+1973/1974,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,33213,,,,0
+1974/1975,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,31339,,,,0
+1975/1976,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,28363,,,,0
+1976/1977,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,25034,,,,0
+1977/1978,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,16169,,,,0
+1978/1979,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,14833,,,,0
+1979/1980,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,24385,,,,0
+1980/1981,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,18787,,,,0
+1981/1982,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,24052,,,,0
+1982/1983,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,18700,,,,0
+1983/1984,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,15268,,,,0
+1984/1985,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,13568,,,,0
+1985/1986,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,15944,,,,0
+1986/1987,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,25452,,,,0
+1987/1988,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,24620,,,,0
+1988/1989,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,29493,,,,0
+1989/1990,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,37763,,,,0
+1990/1991,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,45791,,,,0
+1991/1992,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,51600,,,,0
+1992/1993,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,48357,,,,0
+1993/1994,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,35964,,,,0
+1994/1995,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,26768,,,,0
+1995/1996,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,29490,,,,0
+1996/1997,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,27991,,,,0
+1997/1998,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,27242,,,,0
+1998/1999,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,27739,,,,0
+1999/2000,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,30250,,,,0
+2000/2001,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,36716,,,,0
+2001/2002,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,39114,,,,0
+2002/2003,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,34913,,,,0
+2003/2004,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,44561,,,,0
+2004/2005,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,43420,,,,0
+2005/2006,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,41999,,,,0
+2006/2007,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,45069,,,,0
+2007/2008,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,45865,,,,0
+2008/2009,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,46511,,,,0
+2009/2010,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,51531,,,,0
+2010/2011,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,53411,,,,0
+2011/2012,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,54215,,,,0
+2012/2013,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,55948,,,,0
+2013/2014,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,51641,,,,0
+2014/2015,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,45509,,,,0
+2015/2016,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,55408,,,,0
+2016/2017,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,53158,,,,0
+2017/2018,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,47908,,,,0
+2018/2019,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,44862,,,,0
+2019/2020,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,33301,,,,0
+2020/2021,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,33671,,,,0
+2021/2022,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,62805,,,,0
+2022/2023,Quebec,2016A000224,Total - gender,Immigrants,All ages,Persons,249,units,0,v438914,6.1.1.1,64470,,,,0
+1971/1972,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,62258,,,,0
+1972/1973,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,75267,,,,0
+1973/1974,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,120369,,,,0
+1974/1975,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,112876,,,,0
+1975/1976,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,85648,,,,0
+1976/1977,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,63267,,,,0
+1977/1978,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,49986,,,,0
+1978/1979,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,40768,,,,0
+1979/1980,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,64536,,,,0
+1980/1981,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,54648,,,,0
+1981/1982,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,57870,,,,0
+1982/1983,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,44951,,,,0
+1983/1984,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,40252,,,,0
+1984/1985,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,40442,,,,0
+1985/1986,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,43158,,,,0
+1986/1987,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,70252,,,,0
+1987/1988,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,85125,,,,0
+1988/1989,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,98070,,,,0
+1989/1990,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,108863,,,,0
+1990/1991,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,115213,,,,0
+1991/1992,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,129706,,,,0
+1992/1993,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,145962,,,,0
+1993/1994,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,120181,,,,0
+1994/1995,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,119730,,,,0
+1995/1996,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,115961,,,,0
+1996/1997,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,119401,,,,0
+1997/1998,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,106419,,,,0
+1998/1999,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,91899,,,,0
+1999/2000,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,116744,,,,0
+2000/2001,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,149998,,,,0
+2001/2002,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,152823,,,,0
+2002/2003,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,109814,,,,0
+2003/2004,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,127944,,,,0
+2004/2005,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,129795,,,,0
+2005/2006,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,133052,,,,0
+2006/2007,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,115439,,,,0
+2007/2008,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,115050,,,,0
+2008/2009,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,105425,,,,0
+2009/2010,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,116586,,,,0
+2010/2011,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,105019,,,,0
+2011/2012,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,101259,,,,0
+2012/2013,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,105878,,,,0
+2013/2014,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,101929,,,,0
+2014/2015,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,89674,,,,0
+2015/2016,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,120132,,,,0
+2016/2017,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,98520,,,,0
+2017/2018,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,132511,,,,0
+2018/2019,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,139108,,,,0
+2019/2020,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,127105,,,,0
+2020/2021,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,107908,,,,0
+2021/2022,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,227424,,,,0
+2022/2023,Ontario,2016A000235,Total - gender,Immigrants,All ages,Persons,249,units,0,v439229,7.1.1.1,199297,,,,0
+1971/1972,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,5086,,,,0
+1972/1973,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,5352,,,,0
+1973/1974,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,7769,,,,0
+1974/1975,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,7334,,,,0
+1975/1976,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,6489,,,,0
+1976/1977,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,5154,,,,0
+1977/1978,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4426,,,,0
+1978/1979,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3410,,,,0
+1979/1980,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,7207,,,,0
+1980/1981,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,6327,,,,0
+1981/1982,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,5165,,,,0
+1982/1983,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4515,,,,0
+1983/1984,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3958,,,,0
+1984/1985,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3478,,,,0
+1985/1986,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3906,,,,0
+1986/1987,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4078,,,,0
+1987/1988,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4836,,,,0
+1988/1989,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,5294,,,,0
+1989/1990,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,6766,,,,0
+1990/1991,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,6342,,,,0
+1991/1992,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4792,,,,0
+1992/1993,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,5419,,,,0
+1993/1994,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4525,,,,0
+1994/1995,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3811,,,,0
+1995/1996,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3666,,,,0
+1996/1997,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4030,,,,0
+1997/1998,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3093,,,,0
+1998/1999,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,3293,,,,0
+1999/2000,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4207,,,,0
+2000/2001,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4837,,,,0
+2001/2002,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4825,,,,0
+2002/2003,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,4902,,,,0
+2003/2004,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,7418,,,,0
+2004/2005,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,7687,,,,0
+2005/2006,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,8881,,,,0
+2006/2007,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,10794,,,,0
+2007/2008,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,10739,,,,0
+2008/2009,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,12974,,,,0
+2009/2010,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,14122,,,,0
+2010/2011,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,15841,,,,0
+2011/2012,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,15101,,,,0
+2012/2013,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,12698,,,,0
+2013/2014,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,15462,,,,0
+2014/2015,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,14803,,,,0
+2015/2016,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,17450,,,,0
+2016/2017,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,15558,,,,0
+2017/2018,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,14172,,,,0
+2018/2019,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,15911,,,,0
+2019/2020,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,14736,,,,0
+2020/2021,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,10179,,,,0
+2021/2022,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,21343,,,,0
+2022/2023,Manitoba,2016A000246,Total - gender,Immigrants,All ages,Persons,249,units,0,v439544,8.1.1.1,25591,,,,0
+1971/1972,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1479,,,,0
+1972/1973,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1555,,,,0
+1973/1974,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2194,,,,0
+1974/1975,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2514,,,,0
+1975/1976,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2604,,,,0
+1976/1977,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2380,,,,0
+1977/1978,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1906,,,,0
+1978/1979,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1673,,,,0
+1979/1980,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,3722,,,,0
+1980/1981,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2961,,,,0
+1981/1982,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2371,,,,0
+1982/1983,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1913,,,,0
+1983/1984,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1861,,,,0
+1984/1985,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2091,,,,0
+1985/1986,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1918,,,,0
+1986/1987,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2131,,,,0
+1987/1988,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1990,,,,0
+1988/1989,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2228,,,,0
+1989/1990,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2201,,,,0
+1990/1991,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2284,,,,0
+1991/1992,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2538,,,,0
+1992/1993,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2563,,,,0
+1993/1994,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2283,,,,0
+1994/1995,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2191,,,,0
+1995/1996,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1825,,,,0
+1996/1997,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1775,,,,0
+1997/1998,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1599,,,,0
+1998/1999,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1752,,,,0
+1999/2000,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1671,,,,0
+2000/2001,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1843,,,,0
+2001/2002,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1818,,,,0
+2002/2003,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1560,,,,0
+2003/2004,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,1896,,,,0
+2004/2005,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2099,,,,0
+2005/2006,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,2120,,,,0
+2006/2007,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,3096,,,,0
+2007/2008,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,4291,,,,0
+2008/2009,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,5928,,,,0
+2009/2010,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,7204,,,,0
+2010/2011,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,7553,,,,0
+2011/2012,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,11446,,,,0
+2012/2013,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,9814,,,,0
+2013/2014,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,12317,,,,0
+2014/2015,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,11377,,,,0
+2015/2016,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,15171,,,,0
+2016/2017,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,14313,,,,0
+2017/2018,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,14999,,,,0
+2018/2019,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,13915,,,,0
+2019/2020,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,13383,,,,0
+2020/2021,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,7353,,,,0
+2021/2022,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,16291,,,,0
+2022/2023,Saskatchewan,2016A000247,Total - gender,Immigrants,All ages,Persons,249,units,0,v439859,9.1.1.1,26124,,,,0
+1971/1972,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,8243,,,,0
+1972/1973,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,9300,,,,0
+1973/1974,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,13789,,,,0
+1974/1975,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,15688,,,,0
+1975/1976,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,15905,,,,0
+1976/1977,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,13819,,,,0
+1977/1978,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,11634,,,,0
+1978/1979,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,8942,,,,0
+1979/1980,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,17195,,,,0
+1980/1981,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,18567,,,,0
+1981/1982,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,20642,,,,0
+1982/1983,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,13668,,,,0
+1983/1984,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,10749,,,,0
+1984/1985,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,9843,,,,0
+1985/1986,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,9211,,,,0
+1986/1987,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,10637,,,,0
+1987/1988,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,12661,,,,0
+1988/1989,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,15024,,,,0
+1989/1990,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,17992,,,,0
+1990/1991,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,17903,,,,0
+1991/1992,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,17001,,,,0
+1992/1993,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,18975,,,,0
+1993/1994,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,18207,,,,0
+1994/1995,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,16515,,,,0
+1995/1996,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,13870,,,,0
+1996/1997,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,13783,,,,0
+1997/1998,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,11648,,,,0
+1998/1999,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,11243,,,,0
+1999/2000,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,12865,,,,0
+2000/2001,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,16202,,,,0
+2001/2002,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,16689,,,,0
+2002/2003,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,13630,,,,0
+2003/2004,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,17120,,,,0
+2004/2005,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,17445,,,,0
+2005/2006,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,19930,,,,0
+2006/2007,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,20153,,,,0
+2007/2008,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,23809,,,,0
+2008/2009,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,25163,,,,0
+2009/2010,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,30017,,,,0
+2010/2011,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,30464,,,,0
+2011/2012,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,34563,,,,0
+2012/2013,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,36865,,,,0
+2013/2014,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,41058,,,,0
+2014/2015,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,39596,,,,0
+2015/2016,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,57867,,,,0
+2016/2017,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,44126,,,,0
+2017/2018,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,38697,,,,0
+2018/2019,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,40723,,,,0
+2019/2020,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,35494,,,,0
+2020/2021,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,24022,,,,0
+2021/2022,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,52560,,,,0
+2022/2023,Alberta,2016A000248,Total - gender,Immigrants,All ages,Persons,249,units,0,v440174,10.1.1.1,54287,,,,0
+1971/1972,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,18402,,,,0
+1972/1973,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,22570,,,,0
+1973/1974,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,32986,,,,0
+1974/1975,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,33618,,,,0
+1975/1976,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,25261,,,,0
+1976/1977,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,16961,,,,0
+1977/1978,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,14048,,,,0
+1978/1979,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,12537,,,,0
+1979/1980,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,22144,,,,0
+1980/1981,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,22879,,,,0
+1981/1982,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,22126,,,,0
+1982/1983,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,15424,,,,0
+1983/1984,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,14470,,,,0
+1984/1985,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,12320,,,,0
+1985/1986,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,12390,,,,0
+1986/1987,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,15823,,,,0
+1987/1988,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,20455,,,,0
+1988/1989,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,24584,,,,0
+1989/1990,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,26496,,,,0
+1990/1991,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,30642,,,,0
+1991/1992,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,34808,,,,0
+1992/1993,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,41014,,,,0
+1993/1994,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,49432,,,,0
+1994/1995,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,46260,,,,0
+1995/1996,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,47728,,,,0
+1996/1997,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,53235,,,,0
+1997/1998,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,40456,,,,0
+1998/1999,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,34274,,,,0
+1999/2000,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,36946,,,,0
+2000/2001,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,39543,,,,0
+2001/2002,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,38024,,,,0
+2002/2003,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,31924,,,,0
+2003/2004,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,36714,,,,0
+2004/2005,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,40578,,,,0
+2005/2006,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,43848,,,,0
+2006/2007,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,37819,,,,0
+2007/2008,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,43231,,,,0
+2008/2009,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,42377,,,,0
+2009/2010,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,43883,,,,0
+2010/2011,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,38952,,,,0
+2011/2012,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,36237,,,,0
+2012/2013,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,35735,,,,0
+2013/2014,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,37478,,,,0
+2014/2015,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,31673,,,,0
+2015/2016,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,43223,,,,0
+2016/2017,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,35412,,,,0
+2017/2018,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,41900,,,,0
+2018/2019,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,43133,,,,0
+2019/2020,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,44795,,,,0
+2020/2021,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,34383,,,,0
+2021/2022,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,83222,,,,0
+2022/2023,British Columbia,2016A000259,Total - gender,Immigrants,All ages,Persons,249,units,0,v440489,11.1.1.1,66268,,,,0
+1971/1972,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,70,,,,0
+1972/1973,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,124,,,,0
+1973/1974,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,97,,,,0
+1974/1975,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,97,,,,0
+1975/1976,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,94,,,,0
+1976/1977,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,46,,,,0
+1977/1978,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,63,,,,0
+1978/1979,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,51,,,,0
+1979/1980,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,93,,,,0
+1980/1981,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,108,,,,0
+1981/1982,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,93,,,,0
+1982/1983,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,60,,,,0
+1983/1984,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,58,,,,0
+1984/1985,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,47,,,,0
+1985/1986,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,43,,,,0
+1986/1987,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,70,,,,0
+1987/1988,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,65,,,,0
+1988/1989,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,84,,,,0
+1989/1990,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,116,,,,0
+1990/1991,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,64,,,,0
+1991/1992,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,118,,,,0
+1992/1993,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,128,,,,0
+1993/1994,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,108,,,,0
+1994/1995,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,100,,,,0
+1995/1996,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,89,,,,0
+1996/1997,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,97,,,,0
+1997/1998,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,78,,,,0
+1998/1999,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,67,,,,0
+1999/2000,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,79,,,,0
+2000/2001,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,48,,,,0
+2001/2002,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,66,,,,0
+2002/2003,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,56,,,,0
+2003/2004,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,60,,,,0
+2004/2005,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,58,,,,0
+2005/2006,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,78,,,,0
+2006/2007,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,56,,,,0
+2007/2008,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,97,,,,0
+2008/2009,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,135,,,,0
+2009/2010,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,333,,,,0
+2010/2011,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,214,,,,0
+2011/2012,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,331,,,,0
+2012/2013,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,212,,,,0
+2013/2014,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,360,,,,0
+2014/2015,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,264,,,,0
+2015/2016,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,254,,,,0
+2016/2017,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,233,,,,0
+2017/2018,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,263,,,,0
+2018/2019,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,309,,,,0
+2019/2020,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,336,,,,0
+2020/2021,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,300,,,,0
+2021/2022,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,664,,,,0
+2022/2023,Yukon,2016A000260,Total - gender,Immigrants,All ages,Persons,249,units,0,v440804,12.1.1.1,677,,,,0
+1971/1972,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,115,,,,0
+1972/1973,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,224,,,,0
+1973/1974,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,191,,,,0
+1974/1975,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,198,,,,0
+1975/1976,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,184,,,,0
+1976/1977,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,143,,,,0
+1977/1978,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,125,,,,0
+1978/1979,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,103,,,,0
+1979/1980,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,147,,,,0
+1980/1981,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,98,,,,0
+1981/1982,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,95,,,,0
+1982/1983,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,79,,,,0
+1983/1984,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,65,,,,0
+1984/1985,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,75,,,,0
+1985/1986,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,61,,,,0
+1986/1987,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,69,,,,0
+1987/1988,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,68,,,,0
+1988/1989,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,101,,,,0
+1989/1990,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,88,,,,0
+1990/1991,Northwest Territories including Nunavut,,Total - gender,Immigrants,All ages,Persons,249,units,0,v441119,13.1.1.1,100,,,,0
+1991/1992,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,108,,,,0
+1992/1993,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,121,,,,0
+1993/1994,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,119,,,,0
+1994/1995,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,127,,,,0
+1995/1996,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,114,,,,0
+1996/1997,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,79,,,,0
+1997/1998,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,68,,,,0
+1998/1999,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,46,,,,0
+1999/2000,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,86,,,,0
+2000/2001,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,74,,,,0
+2001/2002,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,94,,,,0
+2002/2003,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,59,,,,0
+2003/2004,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,105,,,,0
+2004/2005,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,79,,,,0
+2005/2006,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,73,,,,0
+2006/2007,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,98,,,,0
+2007/2008,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,132,,,,0
+2008/2009,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,109,,,,0
+2009/2010,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,129,,,,0
+2010/2011,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,90,,,,0
+2011/2012,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,141,,,,0
+2012/2013,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,152,,,,0
+2013/2014,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,163,,,,0
+2014/2015,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,179,,,,0
+2015/2016,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,220,,,,0
+2016/2017,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,225,,,,0
+2017/2018,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,255,,,,0
+2018/2019,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,227,,,,0
+2019/2020,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,161,,,,0
+2020/2021,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,144,,,,0
+2021/2022,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,346,,,,0
+2022/2023,Northwest Territories,2016A000261,Total - gender,Immigrants,All ages,Persons,249,units,0,v474903,14.1.1.1,282,,,,0
+1991/1992,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,10,,,,0
+1992/1993,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,37,,,,0
+1993/1994,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,25,,,,0
+1994/1995,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,19,,,,0
+1995/1996,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,8,,,,0
+1996/1997,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,18,,,,0
+1997/1998,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,15,,,,0
+1998/1999,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,12,,,,0
+1999/2000,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,12,,,,0
+2000/2001,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,11,,,,0
+2001/2002,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,19,,,,0
+2002/2003,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,5,,,,0
+2003/2004,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,11,,,,0
+2004/2005,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,9,,,,0
+2005/2006,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,12,,,,0
+2006/2007,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,12,,,,0
+2007/2008,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,36,,,,0
+2008/2009,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,32,,,,0
+2009/2010,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,16,,,,0
+2010/2011,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,17,,,,0
+2011/2012,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,26,,,,0
+2012/2013,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,12,,,,0
+2013/2014,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,24,,,,0
+2014/2015,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,28,,,,0
+2015/2016,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,39,,,,0
+2016/2017,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,36,,,,0
+2017/2018,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,31,,,,0
+2018/2019,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,25,,,,0
+2019/2020,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,39,,,,0
+2020/2021,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,21,,,,0
+2021/2022,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,53,,,,0
+2022/2023,Nunavut,2016A000262,Total - gender,Immigrants,All ages,Persons,249,units,0,v475218,15.1.1.1,45,,,,0
